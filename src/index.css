@@ -446,3 +446,89 @@ Styles of Pokemon Single Page
 	background-color: var(--color-primary-hover);
 	color: #000;
 }
+
+@media (max-width: 520px) {
+	
+
+	.card-list-pokemon {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 5px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.main-pokemon{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.btn-category {
+		margin: 5px;
+	}
+ .container-filter {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+ 
+	.icon-filter {
+		display: flex;
+		margin-left: 250px;
+	}
+
+	.container-filters.active{
+	
+		width: 150px;
+	}
+
+	.form-group {
+		margin-left: 10px;
+	}
+	.form-group input{
+		width: 8px;
+		margin-right: 17px;
+		font-size: small;
+		width: 40PX;
+		
+	}
+
+.inp
+	.stat-group{
+		gap: 2px;
+	
+	}
+	.btn-search{
+		padding: 18px 5px;
+	
+		
+		
+	
+	}
+	header form {
+		margin-left: 2px;
+		gap: 2px;
+	}
+
+	.container-stats {
+		display: flex;
+		gap: 1px;
+		align-items: center;
+	}
+	
+	.container-img-pokemon {
+		order: 2;
+		flex: 1;
+		padding: 20px 20px 20px 0;
+		height: 350px;
+		width: 10px;
+		margin-left: -70px;
+	}
+	
+	.container-img-pokemon img {
+		height: 100%;
+		width: 70%;
+	}
+}
